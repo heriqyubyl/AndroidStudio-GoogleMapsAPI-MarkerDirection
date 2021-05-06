@@ -29,13 +29,13 @@
     android:layout_gravity="center"
     android:orientation="horizontal">
         <Button
-            android:id="@+id/add"
+            android:id="@+id/btn_add"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Simpan Jarak"
             android:textStyle="bold"/>
         <Button
-            android:id="@+id/reset"
+            android:id="@+id/btn_reset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Reset"
@@ -71,15 +71,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
-                android:text="Latitude"
+                android:text="Latitude/Longitude"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv1_long"
+                android:id="@+id/tv1_addres"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Longitude"
+                android:text="address"
                 android:textSize="17dp"
                 android:layout_marginLeft="5dp"
                 android:textStyle="bold" />
@@ -91,7 +91,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
             <TextView
-                android:id="@+id/tv_Long"
+                android:id="@+id/Lk2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Lokasi B"
@@ -114,29 +114,29 @@
                 android:id="@+id/tv2_lat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Latitude"
+                android:text="Latitude/Longitude"
                 android:textSize="17dp"
                 android:layout_marginLeft="5dp"
                 android:textStyle="bold" />
             <TextView
-                android:id="@+id/tv2_long"
+                android:id="@+id/tv2_addres"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Longitude"
+                android:text="address"
                 android:textSize="17dp"
                 android:layout_marginLeft="5dp"
                 android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
         <Button
-            android:id="@+id/Hitung"
+            android:id="@+id/btn_hitung"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hitung Jarak"
             android:textStyle="bold"/>
 
         <TextView
-            android:id="@+id/tv_Hasil"
+            android:id="@+id/tv_jarak"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
